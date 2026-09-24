@@ -1,0 +1,15 @@
+# Environment variables (CRITICAL: NEVER COMMIT)
+.env
+.env.local
+.env.*
+!.env.example
+*.env
+
+# Node Dependencies & Build Output
+node_modules/
+dist/
+build/
+.next/
+
+# Logs
+*.log

@@ -1,0 +1,39 @@
+# Environment & Secrets (NEVER COMMIT)
+.env
+.env.*
+!.env.example
+*.env
+
+# Dependencies
+node_modules/
+dist/
+build/
+.next/
+
+# Python virtual environment & bytecode
+venv/
+.venv/
+env/
+ENV/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# Local Uploads & Generated PDF Reports
+uploads/
+reports/
+*.pdf
+!README.md
+
+# Logs & Database
+*.log
+*.sqlite3
+*.db
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

@@ -1,0 +1,22 @@
+# Environment variables (CRITICAL: NEVER COMMIT)
+.env
+.env.local
+.env.*
+!.env.example
+*.env
+
+# Python Cache & Virtual Environment
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+env/
+
+# Uploads & Reports
+uploads/
+reports/
+*.pdf
+
+# Logs
+*.log
